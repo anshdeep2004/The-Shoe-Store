@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MaleShop">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Male Shop"
+            android:layout_margin="10sp"
+            android:layout_marginStart="20dp"
+            android:textSize="24dp"
+            android:textStyle="bold"
+            android:textAlignment="center"/>
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5sp"
+            android:layout_marginBottom="30sp"
+            android:columnCount="2">
+
+
+            <LinearLayout
+                android:id="@+id/bestseller1_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_row="0"
+                android:layout_column="0"
+                android:layout_columnWeight="1"
+                android:layout_margin="5sp"
+                android:background="#F4F0EC"
+                android:orientation="vertical"
+                android:paddingLeft="20dp">
+
+                <ImageButton
+                    android:id="@+id/male1_image"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10sp"
+                    android:background="@drawable/rounded_corners"
+                    android:src="@drawable/male_1" />
+
+                <TextView
+                    android:id="@+id/bestseller1_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5sp"
+                    android:background="#F4F0EC"
+                    android:text="Campus"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:src="@drawable/star4_rating" />
+
+                <TextView
+                    android:id="@+id/bestseller1_price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5sp"
+                    android:background="#F4F0EC"
+                    android:text="$ 1670"
+                    android:textSize="22sp"
+                    android:textStyle="bold" />
+
+
+                <Button
+                    android:id="@+id/male1_cart"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8sp"
+                    android:layout_marginBottom="10sp"
+                    android:width="120dp"
+                    android:background="@drawable/button_colour"
+                    android:text="Buy" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/bestseller2_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_margin="5sp"
+                android:background="#F4F0EC"
+                android:orientation="vertical"
+                android:paddingLeft="20dp">
+
+                <ImageButton
+                    android:id="@+id/male2_image"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10sp"
+                    android:background="@color/white"
+                    android:src="@drawable/male_2" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5sp"
+                    android:background="#F4F0EC"
+                    android:text="Nike"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:src="@drawable/star5_rating" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5sp"
+                    android:background="#F4F0EC"
+                    android:text="$ 4567"
+                    android:textSize="22sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/male2_cart"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8sp"
+                    android:layout_marginBottom="10sp"
+                    android:width="120dp"
+                    android:background="@drawable/button_colour"
+                    android:text="Buy" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/male3_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_margin="5sp"
+                android:background="#F4F0EC"
+                android:orientation="vertical"
+                android:paddingLeft="20dp">
+
+                <ImageButton
+                    android:id="@+id/male3_image"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10sp"
+                    android:background="@color/white"
+                    android:src="@drawable/male_3" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5sp"
+                    android:background="#F4F0EC"
+                    android:text="Sparx"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:src="@drawable/star3_rating" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5sp"
+                    android:background="#F4F0EC"
+                    android:text="$ 2588"
+                    android:textSize="22sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/male3_cart"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8sp"
+                    android:layout_marginBottom="10sp"
+                    android:width="120dp"
+                    android:background="@drawable/button_colour"
+                    android:text="Buy" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/male4_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_margin="5sp"
+                android:background="#F4F0EC"
+                android:orientation="vertical"
+                android:paddingLeft="20dp">
+
+                <ImageButton
+                    android:id="@+id/male4_image"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10sp"
+                    android:background="@color/white"
+                    android:src="@drawable/male_4" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5sp"
+                    android:background="#F4F0EC"
+                    android:text="Puma-ferrari"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:src="@drawable/star5_rating" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5sp"
+                    android:background="#F4F0EC"
+                    android:text="$ 4999"
+                    android:textSize="22sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/male4_cart"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8sp"
+                    android:layout_marginBottom="10sp"
+                    android:width="120dp"
+                    android:background="@drawable/button_colour"
+                    android:text="Buy" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/male5_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_margin="5sp"
+                android:background="#F4F0EC"
+                android:orientation="vertical"
+                android:paddingLeft="20dp">
+
+                <ImageButton
+                    android:id="@+id/male5_image"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10sp"
+                    android:background="@color/white"
+                    android:src="@drawable/male_5" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5sp"
+                    android:background="#F4F0EC"
+                    android:text="Puma"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:src="@drawable/star5_rating" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5sp"
+                    android:background="#F4F0EC"
+                    android:text="$ 3700"
+                    android:textSize="22sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/male5_cart"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8sp"
+                    android:layout_marginBottom="10sp"
+                    android:width="120dp"
+                    android:background="@drawable/button_colour"
+                    android:text="Buy" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/male6_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_margin="5sp"
+                android:background="#F4F0EC"
+                android:orientation="vertical"
+                android:paddingLeft="20dp">
+
+                <ImageButton
+                    android:id="@+id/male6_image"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10sp"
+                    android:background="@color/white"
+                    android:src="@drawable/male_6" />
+
+                <TextView
+                    android:id="@+id/male6_brand"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5sp"
+                    android:background="#F4F0EC"
+                    android:text="Skechers"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:src="@drawable/star5_rating" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5sp"
+                    android:background="#F4F0EC"
+                    android:text="$ 3576"
+                    android:textSize="22sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/male6_cart"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8sp"
+                    android:layout_marginBottom="10sp"
+                    android:width="120dp"
+                    android:background="@drawable/button_colour"
+                    android:text="Buy" />
+
+
+            </LinearLayout>
+
+        </GridLayout>
+
+    </LinearLayout>
+
+</ScrollView>
